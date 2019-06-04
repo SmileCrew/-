@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 1410px;
+    height: 460px;
+    background-image: url(../img/banner-bg.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.daohang{
+    width: 1410px;
+    height: 60px;
+    background: #333;
+    margin: 20px auto 0;
+    opacity: 0.7;
+}
+.daohang .nav_1{
+    width: 168px;
+    height: 130px;
+    margin-right: 10px;
+    margin-left:200px ;
+    float: left;
+    
+
+}
+.daohang .nav_2 ul>li{
+    list-style: none;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF;
+    background: #333;
+    float: left;
+    
+}
+.daohang .nav_2 ul li a{
+    width: 120px;
+    height: 60px;
+    text-decoration: none;
+    font-family: '宋体';
+    color: #FFF;
+    display: block;
+    
+}
+ul>li ul.nav_4{
+    display: none;
+    
+}
+.daohang .nav_2 ul li a:hover{
+    width: 120px;
+    height: 60px;
+    background: red;
+}
+.kongbai{
+    width: 1410px;
+    height: 300px;
+    
+    margin: 0 auto;
+}
+.rexian{
+    width: 1410px;
+    height: 30px;
+    margin: 0 auto;
+    background:tomato;
+    opacity: 0.7;
+}
+.rexian p{
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.lianxi{
+    width: 1410px;
+    height: 70px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.7)
+    
+}
+.lianxi .lianxi_1{
+    float: left;
+}
+.lianxi .lianxi_1 ul{
+    width: 244px;
+    height: 70px;
+    color: #fff;
+    border-right: 1px dashed #fff;
+    float: right;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+.lianxi .lianxi_1 ul li{
+    margin: 10px -35px 0px 60px;
+}
+.lianxi .lianxi_1 img{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.lianxi ul li.A{
+    font-size: 20px;
+}
+.lianxi ul li.B{
+    font-size: 15px;
+    font-family: '宋体';
+}
+.zixun{
+    width: 1410px;
+    height: 80px;
+    /* background: brown; */
+    margin: 30px auto;
+}
+.zixun .A{
+    margin: 20px 0 0 0px;
+    float: left;
+    font-size: 15px;
+    color: darkgray;
+}
+.zixun .a{
+    font-size: 28px;
+    color: red;
+}
+.zixun .B{   
+    width: 760px;
+    height: 80px;
+    margin-left:600px ;
+}
+.zixun .B ul li{
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid red;
+    float: left;
+    list-style: none;
+    font-size: 20px;
+}
+.zixun .B ul li:hover{
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}
+.tupian {
+    width: 1410px;
+    height: 1700px;
+    margin: 10px auto 70px;
+    /* background: green; */
+    border-top: 1px solid darkgrey;
+    
+}
+.tupian .tuji{
+    width: 320px;
+    height: 500px;
+    /* background: blue; */
+    float: left;
+    margin: 25px 16px 25px 16px;
+}
+.tupian .tuji dt img{
+    width: 320px;
+    height: 232px;
+}
+.tupian .tuji dl dd{
+    font-size: 24px;
+}
+.tupian .shijian{
+    font-size: 12px;
+    margin: 10px 0;
+    color: darkgray;
+}
+.tupian .xushu{
+    font-size: 14px;
+    color: darkgray;
+}
+.tupian .xushu a{
+    text-decoration: none;
+    color: #000;
+}
+.tupian .xushu a:hover{
+    color: red;
+}
+.tupian .chakanxiangqing{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 14px;
+    border: 1px solid red;
+    
+}
+.tupian .chakanxiangqing a{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: #666;
+    display: block;
+}
+.tupian .chakanxiangqing a:hover{
+    width: 200px;
+    height: 40px;
+    background: red;
+    color: #fff;
+}
+.fanye{
+    width: 1410px;
+    height: 50px;
+    text-align: center;
+    /* background: #000; */
+
+}
+.fanye_1{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    
+
+}
+.fanye ul li{
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    
+    
+}
+.fanye ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.fanye ul li a:hover{
+    color: red;
+}
+.sizhangtupian{
+    width:1410px;
+    height:152px;
+    margin:20px auto;
+    /* background:pink; */
+}
+.sizhangtupian img{
+    float: left;
+    margin: 0 2px 0 15px;
+}
+.weibu{
+    width: 100%;
+    height: 240px;
+    background: #e53b30;
+    list-style: none;
+    padding: 0 20px;
+}
+.youqinglianjie{
+    width: 1410px;
+    height: 120px;
+    margin: 0 auto;
+    /* text-indent: 20px; */
+    color: #620A09;
+    
+}
+.youqinglianjie p{
+    width: 1410px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+}
+.youqinglianjie .lianjie{
+    width: 1410px;
+    height: 60px;
+    /* background: chartreuse; */
+    
+}
+.youqinglianjie .lianjie ul li{
+    width: 88px;
+    height: 22px;
+    list-style: none;
+    float: left;
+    /* padding: 0 10px; */
+    font-size: 12px;
+    margin-right: 10px;
+}
+.youqinglianjie .lianjie ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.youqinglianjie .lianjie ul li.changlianjie{
+    width: 100px;
+    height: 22px;
+}
+.jiewei{
+    width: 1410px;
+    height: 110px;
+    margin: 0 auto;
+    /* background: pink; */
+}
+.jiewei_0{
+    width: 700px;
+    height: 110px;
+    float: left;
+    cursor: pointer;
+    /* background: blue; */
+}
+.jiewei .jiewei_1{
+    width: 120px;
+    height: 110px;
+    float: left;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.jiewei .jiewei_1 ul li{
+    
+    width: 120px;
+    height: 24px;
+    list-style: none;
+    
+
+}
+.jiewei .jiewei_1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.buttom{
+    width: 100%;
+    height: 80px;
+    background: #ce2e2e;
+    margin-top: -10px;
+    
+}
